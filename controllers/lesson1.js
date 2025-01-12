@@ -6,7 +6,12 @@ const worldRoute = ('/', (req,res) => {
     res.send("World");
 });
 
+const peaceRoute = ('/', (req,res) => {
+    res.send("Peace");
+});
+
 module.exports = {
     helloRoute,
     worldRoute,
+    peaceRoute,
 };
