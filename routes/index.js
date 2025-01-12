@@ -1,5 +1,5 @@
 const routes = require('express').Router();
-const lesson1controller = require('../controllers/lesson1');
+const lesson1controller = require('../controllers/index');
 
 routes.get('/', lesson1controller.helloRoute);
 routes.get('/world', lesson1controller.worldRoute);
