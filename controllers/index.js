@@ -1,4 +1,4 @@
-const helloRoute = ('/', (req,res) => {
+/*const helloRoute = ('/', (req,res) => {
   res.send("Hello");
 });
 
@@ -14,4 +14,4 @@ module.exports = {
   helloRoute,
   worldRoute,
   peaceRoute,
-};
+};*/
