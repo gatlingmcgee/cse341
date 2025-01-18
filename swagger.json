@@ -5,7 +5,7 @@
     "description": "Users API",
     "version": "1.0.0"
   },
-  "host": "https://cse341-oxmo.onrender.com",
+  "host": "cse341-oxmo.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
