@@ -3,7 +3,7 @@ const lesson1controller = require('../controllers/index');
 
 routes.use('/', require('./swagger'));
 
-//routes.get('/', lesson1controller.helloRoute);
+//routes.get('/', lesson1controller.Whats up people!);
 routes.get('/', (req, res) => { 
     //#swagger.tags=['Whats up people!']
     res.send('Whats up people!');
