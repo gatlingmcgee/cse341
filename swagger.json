@@ -5,9 +5,10 @@
     "description": "Users API",
     "version": "1.0.0"
   },
-  "host": "cse341-oxmo.onrender.com",
+  "host": "localhost:3000",
   "basePath": "/",
   "schemes": [
+    "http",
     "https"
   ],
   "paths": {
@@ -51,16 +52,19 @@
             "schema": {
               "type": "object",
               "properties": {
-                "userName": {
+                "firstName": {
+                  "example": "any"
+                },
+                "lastName": {
                   "example": "any"
                 },
                 "email": {
                   "example": "any"
                 },
-                "name": {
+                "favoriteColor": {
                   "example": "any"
                 },
-                "ipaddress": {
+                "birthday": {
                   "example": "any"
                 }
               }
@@ -118,16 +122,19 @@
             "schema": {
               "type": "object",
               "properties": {
-                "userName": {
+                "firstName": {
+                  "example": "any"
+                },
+                "lastName": {
                   "example": "any"
                 },
                 "email": {
                   "example": "any"
                 },
-                "name": {
+                "favoriteColor": {
                   "example": "any"
                 },
-                "ipaddress": {
+                "birthday": {
                   "example": "any"
                 }
               }
